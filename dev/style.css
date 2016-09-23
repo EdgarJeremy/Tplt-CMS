@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+	padding-top: 120px;
+}
+.awesome {
+	display: block;
+	padding: 15px 10px;
+	background-color: transparent;
+	border:0;
+	outline: 0;
+	border-radius: 10px;
+	margin: 0 auto;
+	cursor: pointer;
+	text-align: center;
+}
+.awesome .bars {
+	width: 50px;
+	height: 5px;
+	background-color: black;
+	display: block;
+	border-radius: 6px;
+	margin-bottom: 7px;
+	opacity: 1;
+	transition: .6s ease;
+	position: relative;
+}
+.awesome.click .bars {
+	transform: rotate(360deg);
+}
+.awesome .bars:last-child {
+	margin-bottom: 0;
+}
+.awesome.click .bars:first-child {
+	transform: rotate(-35deg) translateX(-3px);
+	width: 39px;
+}
+.awesome.click .bars:last-child {
+	transform: rotate(35deg) translateX(-3px);
+	width: 39px;
+}

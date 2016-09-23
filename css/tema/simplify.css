@@ -1,0 +1,98 @@
+/* Simplify
+* Author : edgar
+*/
+::selection {
+	background-color: rgba(0,0,0,.7);
+	color: white;
+}
+.login-body {
+	background-image: url('img/simplify.jpg');
+	background-size: cover;
+}
+header {
+	background-blend-mode: soft-light;
+	background-color: black;
+	color: white;
+}
+#login-box .input div i {
+	background-color: black;
+	color: white;
+}
+.menu-horizontal li a {
+	color: white;
+}
+.sidebar {
+	background-color: #ecf0f1;
+}
+.name-part {
+	color: #e74c3c;
+}
+.list-menu li a {
+	color: black;
+}
+.list-menu.level-two {
+	background-color: rgba(0,0,0,.2);
+}
+.current {
+	background-color: rgba(0,0,0.3);
+	border-left: 3px solid #3498db;
+}
+.content {
+	background-color: white;
+}
+.header h1 {
+	color: #3498db;
+}
+.search .input-text {
+	color: #3498db;
+	border-bottom: 2px solid #3498db;
+}
+.search .btn {
+	background-color: #3498db;
+}
+.search .btn:hover {
+	background-color: #2d81b9;
+}
+.search .btn:active {
+	transform: none;
+	background-color: #2871a2;
+}
+.contain.card {
+	background-color: white;
+	border-top: 3px solid #2980b9;
+}
+.titling {
+	color: #2c3e50;
+}
+.titling::after {
+	background-color: #f1c40f;
+}
+.date {
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}
+.date span {
+	color: #c0392b;
+}
+
+
+
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background-color: white;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(0,0,0,.3);
+}
+::-webkit-scrollbar-button {
+	background-color: #2c3e50;
+	display: none;
+}
+::-webkit-scrollbar-corner {
+	background-color: black;
+}

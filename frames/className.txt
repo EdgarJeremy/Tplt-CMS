@@ -1,0 +1,22 @@
+Parent :
+	home = "home";
+	gallery = "gallery";
+	running text = "runningtext";
+	gambar banner = "gambarbanner";
+	daftar pengguna = "daftarpengguna";
+	tambah pengguna = "tambahpengguna";
+	
+expand :
+	berita = "beritaChild";
+	agenda = "agendaChild";
+	tema = "temaChild";
+	
+childs :
+	daftar berita = "daftarberita";
+	tambah berita = "tambahberita";
+	edit berita = "editberita";
+	daftar agenda = "daftaragenda";
+	tambah agenda = "tambahagenda";
+	tutup agenda = "tutupagenda";
+	ganti tema = "gantitema";
+	buat tema = "buattema";

@@ -1,0 +1,85 @@
+/* Default stylesheet */
+
+header {
+	background-color: #2c3e50;
+	color: white;
+}
+.menu-horizontal li a {
+	color: white;
+}
+.sidebar {
+	background-color: #34495e;
+}
+.name-part {
+	color: #e74c3c;
+}
+.list-menu li a {
+	color: #ecf0f1;
+}
+.list-menu.level-two {
+	background-color: rgba(0,0,0,.2);
+}
+.current {
+	background-color: rgba(0,0,0.3);
+	border-left: 3px solid #3498db;
+}
+.content {
+	background-color: #ecf0f1;
+}
+.header h1 {
+	color: #3498db;
+}
+.search .input-text {
+	color: #3498db;
+	border-bottom: 2px solid #3498db;
+}
+.search .btn {
+	background-color: #3498db;
+}
+.search .btn:hover {
+	background-color: #2d81b9;
+}
+.search .btn:active {
+	transform: none;
+	background-color: #2871a2;
+}
+.contain.card {
+	background-color: white;
+	border-top: 3px solid #2980b9;
+}
+.titling {
+	color: #2c3e50;
+}
+.titling::after {
+	background-color: #f1c40f;
+}
+.date {
+	background-color: #ecf0f1;
+	color: #2c3e50;
+	border-top: 4px solid #e67e22;
+}
+.date span {
+	color: #c0392b;
+}
+
+
+
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background-color: #bdc3c7;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #194d6f;
+}
+::-webkit-scrollbar-button {
+	background-color: #2c3e50;
+	display: none;
+}
+::-webkit-scrollbar-corner {
+	background-color: black;
+}

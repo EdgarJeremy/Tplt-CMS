@@ -1,0 +1,90 @@
+/* Green Day
+* Author : edgar
+*/
+
+header {
+	background-image: url('img/greenday.png');
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-color: #27ae60;
+	color: white;
+}
+.menu-horizontal li a {
+	color: white;
+}
+.sidebar {
+	background-color: #C8F7C5;
+}
+.name-part {
+	color: #e74c3c;
+}
+.list-menu li a {
+	color: #1E824C;
+}
+.list-menu.level-two {
+	background-color: rgba(0,0,0,.2);
+}
+.current {
+	background-color: rgba(0,0,0.3);
+	border-left: 3px solid #3498db;
+}
+.content {
+	background-color: white;
+}
+.header h1 {
+	color: #1BBC9B;
+}
+.search .input-text {
+	color: #68C3A3;
+	border-bottom: 2px solid #68C3A3;
+}
+.search .btn {
+	background-color: #68C3A3;
+}
+.search .btn:hover {
+	background-color: #1BBC9B;
+}
+.search .btn:active {
+	transform: none;
+	background-color: #26A65B;
+}
+.contain.card {
+	background-color: white;
+	border-top: 3px solid #1BBC9B;
+}
+.titling {
+	color: #2c3e50;
+}
+.titling::after {
+	background-color: #f1c40f;
+}
+.date {
+	background-color: #ecf0f1;
+	color: #2c3e50;
+}
+.date span {
+	color: #c0392b;
+}
+
+
+
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background-color: white;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(0,0,0,.3);
+}
+::-webkit-scrollbar-button {
+	background-color: #2c3e50;
+	display: none;
+}
+::-webkit-scrollbar-corner {
+	background-color: black;
+}

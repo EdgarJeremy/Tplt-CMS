@@ -1,0 +1,14 @@
+RewriteEngine On
+#
+# Internally rewrite extensionless URL to corresponding .php
+# file unless the URL exists as a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(([^/]+/)*[^.]+)$ $1.php [L]
+#
+# Externally redirect (only) direct client requests for .php URLs to extensionless URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /([^/]+/)*[^.#?\ ]+\.php([#?][^\ ]*)?\ HTTP/
+RewriteRule ^(([^/]+/)*[^.]+)\.php http://manadokota.go.id/v3tplt/admin/$1 [R=301,L]
+
+php_value upload_max_filesize 500M
+php_value post_max_size 500M
+RewriteCond %{REQUEST_URI} !^/ajaxAmbilBerita\.php$ 
